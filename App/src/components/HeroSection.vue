@@ -53,12 +53,12 @@
                             btnClass="px-5 py-2 text-sm sm:text-base border border-gray-700 text-gray-900 font-semibold rounded-lg hover:bg-gray-100 transition duration-300" />
 
                         <!-- GitHub & LinkedIn Icons -->
-                        <a href="https://github.com/Tribak-Ayoub" target="_blank" title="GitHub"
+                        <a :href="userInfo.Github" target="_blank" title="GitHub"
                             class="w-9 h-9 sm:w-10 sm:h-10 flex items-center justify-center rounded-full bg-white text-gray-900 shadow-md hover:bg-yellow-400 hover:text-white transition duration-300">
                             <i class="fab fa-github text-lg sm:text-xl"></i>
                         </a>
 
-                        <a href="https://www.linkedin.com/in/ayoub-tribak-el-yedri-064101229/" target="_blank"
+                        <a :href="userInfo.LinkedIn" target="_blank"
                             title="LinkedIn"
                             class="w-9 h-9 sm:w-10 sm:h-10 flex items-center justify-center rounded-full bg-white text-gray-900 shadow-md hover:bg-yellow-400 hover:text-white transition duration-300">
                             <i class="fab fa-linkedin text-lg sm:text-xl"></i>
