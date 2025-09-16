@@ -32,6 +32,18 @@
   },
   {
     "id": 3,
+    "name": "Electricien Momou – WordPress Website",
+    "description": "A professional WordPress website for electricien Momou, featuring responsive design, custom theme development, plugin integration, and optimized for SEO and performance.",
+    "status": "completed",
+    "demo": "https://electricien.infy.uk",
+    "github": "#",
+    "thumbnail": "/images/electricien.png",
+    "video": "/videos/electricien-momou.mp4",
+    "technologies": ["WordPress", "PHP", "HTML", "CSS", "JavaScript"],
+    "role": "Full-stack Developer – Developed a custom WordPress theme, integrated essential plugins, ensured responsive design, and optimized the site for SEO and performance."
+  },
+  {
+    "id": 4,
     "name": "Blog App",
     "description": "A modular blog platform featuring CRUD article management, nested commenting, RESTful APIs, and a clean user interface. Built using Laravel for the backend and Vue.js for the frontend.",
     "status": "completed",
@@ -43,7 +55,7 @@
     "role": "Full-stack Developer – Built the back-end logic and API with Laravel, integrated Vue.js for the UI, and structured the project with a scalable modular architecture."
   },
   {
-    "id": 4,
+    "id": 5,
     "name": "Portfolio Website",
     "description": "A sleek and responsive personal portfolio showcasing projects, technical skills, and development experience. Built with Vue.js and TailwindCSS, optimized for performance and accessibility.",
     "status": "active",
