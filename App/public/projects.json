@@ -32,13 +32,13 @@
   },
   {
     "id": 3,
-    "name": "Electricien Momou – WordPress Website",
-    "description": "A professional WordPress website for electricien Momou, featuring responsive design, custom theme development, plugin integration, and optimized for SEO and performance.",
+    "name": "Electricien – WordPress Website",
+    "description": "A professional WordPress website for electricien, featuring responsive design, custom theme development, plugin integration, and optimized for SEO and performance.",
     "status": "active",
     "demo": "https://electricien.infy.uk",
     "github": "#",
     "thumbnail": "/images/electricien.png",
-    "video": "/videos/electricien-momou.mp4",
+    "video": "/videos/electricien.mp4",
     "technologies": ["WordPress", "PHP", "HTML", "CSS", "JavaScript"],
     "role": "Full-stack Developer – Developed a custom WordPress theme, integrated essential plugins, ensured responsive design, and optimized the site for SEO and performance."
   },
