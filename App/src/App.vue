@@ -22,6 +22,8 @@ onMounted(async () => {
         const experiencesData = await experiencesResponse.json();
         const userInfoData = await userInfoResponse.json();
 
+        projectsData.reverse();
+        
         skills.value = skillsData;
         projects.value = projectsData;
         experiences.value = experiencesData;

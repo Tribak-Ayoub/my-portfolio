@@ -35,10 +35,10 @@
                         <button @click="scrollToSection('contact')" class="nav-link text-black"
                             :class="{ 'active-link': activeSection === 'contact' }">Contact</button>
                     </li>
-                    <li>
-                        <router-link to="/resume" class="nav-link text-black"
-                            :class="{ 'active-link': activeSection === '/resume' }"
-                            @click="scrollToSection('/resume')">Resume</router-link>
+                    <li class="inline-block bg-gradient-to-r from-[#FDC435] to-[#FB923C] p-[4px] rounded-md">
+                        <router-link to="/resume" class="nav-link text-black bg-white "
+                            :class="{ 'active-link': activeSection === '/resume' }" @click="scrollToSection('/resume')">
+                            <span class="p-3">Resume</span> </router-link>
                     </li>
                 </ul>
             </div>
@@ -136,17 +136,20 @@ onUnmounted(() => {
     left: 0;
     bottom: -2px;
     width: 100%;
-    height: 2px;
-    background-color: transparent;
-    transition: background-color 0.3s ease-in-out;
+    height: 3px;
+    border-radius: 6px;
+    background: linear-gradient(to right, #FDC435, #FB923C);
+    opacity: 0;
+    transition: opacity 0.25s ease;
+    pointer-events: none;
 }
 
 .nav-link:hover::after,
 .active-link::after {
-    background-color: #000000;
+    opacity: 1;
 }
 
 .active-link {
-    @apply border-b-2 border-black;
+    @apply border-b-2 border-transparent;
 }
 </style>

@@ -161,6 +161,10 @@ const statusConfig = {
         class: 'bg-slate-100 text-slate-700 border-slate-200',
         label: 'Archived'
     },
+    'on-hold': {
+        class: 'bg-violet-100 text-violet-700 border-violet-200',
+        label: 'On Hold'
+    }
 }
 
 function getStatusClass(status) {
