@@ -144,7 +144,7 @@
     "name": "PostgreSQL",
     "level": "Beginner",
     "category": "Database Management",
-    "icon": "<img src='/icons/PostgreSQL.svg' alt='PostgreSQL Icon' style='width: 2.75rem; height: 2.75rem;' class='mx-auto' />"
+    "icon": "<img src='/icons/PostgreSQL.svg' alt='PostgreSQL Icon' style='width: 3.5rem; height: 3.5rem;' class='mx-auto' />"
   },
   {
     "id": 23,
@@ -159,5 +159,33 @@
     "level": "Intermediate",
     "category": "Web Services",
     "icon": "<i class='fa-solid fa-plug'></i>"
+  },
+  {
+    "id": 25,
+    "name": "Node.js",
+    "level": "Beginner",
+    "category": "Backend Development",
+    "icon": "<i class='fa-brands fa-node-js'></i>"
+  },
+  {
+    "id": 26,
+    "name": "Express.js",
+    "level": "Beginner",
+    "category": "Backend Development",
+    "icon": "<img src='/icons/ExpressJS.svg' alt='ExpressJS Icon' style='width: 3.7rem; height: 3.7rem;' class='mx-auto' />"
+  },
+  {
+    "id": 27,
+    "name": "MongoDB",
+    "level": "Beginner",
+    "category": "Database Management",
+    "icon": "<img src='/icons/MongoDB.svg' alt='PostgreSQL Icon' style='width: 4.2rem; height: 4.2rem;' class='mx-auto' />"
+  },
+  {
+    "id": 28,
+    "name": "Socket.io",
+    "level": "Beginner",
+    "category": "Web Services",
+    "icon": "<img src='/icons/SocketIO.svg' alt='SocketIO Icon' style='width: 4.2rem; height: 4.2rem;' class='mx-auto' />"
   }
 ]
