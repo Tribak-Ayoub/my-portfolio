@@ -1,20 +1,28 @@
 <template>
-    <div class="relative">
+    <div class="relative bg-white selection:bg-primary/30 selection:text-gray-900 font-nunito" style="scroll-padding-top: 64px;">
         <Navbar />
         <main class="pt-16">
-            <section id="home">
+            <!-- Hero: white bg -->
+            <section id="home" class="bg-white">
                 <HeroSection />
             </section>
-            <section id="about" class="mt-20">
+
+            <!-- About + Skills: very light warm gray -->
+            <section id="about" class="bg-gray-50">
                 <AboutSection />
                 <SkillsSection />
             </section>
-            <section id="projects" class="mt-10">
+
+            <!-- Projects: white -->
+            <section id="projects" class="bg-white">
                 <ProjectsCard />
             </section>
-            <section id="contact" class="mt-20 bg-gray-50 py-10 px-4">
+
+            <!-- Contact: light gray -->
+            <section id="contact" class="bg-gray-50">
                 <ContactForm />
             </section>
+
             <Footer />
         </main>
     </div>
