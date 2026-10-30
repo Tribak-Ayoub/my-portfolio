@@ -1,26 +1,25 @@
 <template>
-    <footer class="bg-gray-900 text-gray-300 py-8">
-        <div
-            class="max-w-screen-xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center text-center md:text-left">
+    <footer class="bg-gray-900 text-gray-300 py-12 border-t border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center text-center md:text-left">
 
-            <div>
-                <h2 class="text-lg font-semibold text-white">{{ userInfo.FirstName }} {{ userInfo.LastName }}</h2>
-                <p class="text-gray-400 text-sm mt-1">{{ userInfo.title }}</p>
+            <div class="mb-6 md:mb-0">
+                <h2 class="text-xl font-bold text-white tracking-tight">{{ userInfo.FirstName }} {{ userInfo.LastName }}</h2>
+                <p class="text-gray-400 text-sm mt-1 font-nunito">{{ userInfo.title }}</p>
             </div>
 
-            <div class="text-gray-500 text-sm mt-6">
+            <div class="text-gray-500 text-sm font-nunito mb-6 md:mb-0">
                 © {{ new Date().getFullYear() }} {{ userInfo.FirstName }} {{ userInfo.LastName }}. All rights reserved.
             </div>
 
-            <div class="flex space-x-4 mt-4 md:mt-0 lg:ml-40">
-                <a :href="userInfo.Github" target="_blank" class="hover:text-yellow-400 transition">
-                    <i class="fab fa-github text-xl"></i>
+            <div class="flex space-x-6">
+                <a :href="userInfo.Github" target="_blank" class="text-gray-400 hover:text-white transform hover:scale-110 transition-all duration-300">
+                    <i class="fab fa-github text-2xl"></i>
                 </a>
-                <a :href="userInfo.LinkedIn" target="_blank" class="hover:text-yellow-400 transition">
-                    <i class="fab fa-linkedin text-xl"></i>
+                <a :href="userInfo.LinkedIn" target="_blank" class="text-gray-400 hover:text-[#0A66C2] transform hover:scale-110 transition-all duration-300">
+                    <i class="fab fa-linkedin text-2xl"></i>
                 </a>
-                <a :href="'mailto:' + userInfo.Email" class="hover:text-yellow-400 transition">
-                    <i class="fas fa-envelope text-xl"></i>
+                <a :href="'mailto:' + userInfo.Email" class="text-gray-400 hover:text-primary transform hover:scale-110 transition-all duration-300">
+                    <i class="fas fa-envelope text-2xl"></i>
                 </a>
             </div>
         </div>
