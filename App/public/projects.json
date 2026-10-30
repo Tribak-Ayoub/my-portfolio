@@ -85,5 +85,36 @@
       "Chart.js"
     ],
     "role": "Full-stack Developer – Designed and implemented a robust real-time architecture, including a REST API, Socket.io server for live data push, Mongoose data models, and a reactive Vue 3 dashboard for visualization and alerting."
-  }
+  },
+  {
+  "id": 7,
+  "name": "Karen – AI Voice Companion App",
+  "description": "A cross-platform mobile AI voice companion built with Flutter and a Node.js/TypeScript backend. Users hold real-time voice conversations powered by the OpenAI Realtime API over WebRTC, with long-term memory (categorized memory store, multi-lane retrieval, summary contamination guards), selectable voices and personalities, smart event-based check-ins delivered as push notifications and TTS voice notes, image analysis, multi-language support, and a credit system with in-app purchases.",
+  "status": "active",
+  "demo": "",
+  "github": "",
+  "thumbnail": "",
+  "video": "",
+  "technologies": [
+    "Flutter",
+    "Dart",
+    "GetX",
+    "Node.js",
+    "TypeScript",
+    "Express.js",
+    "MongoDB",
+    "Mongoose",
+    "OpenAI Realtime API",
+    "WebRTC",
+    "WebSockets",
+    "Firebase (FCM, Analytics)",
+    "JWT",
+    "Google & Apple Sign-In",
+    "In-App Purchases",
+    "Zod",
+    "Jest"
+  ],
+  "role": "Full-stack Developer – Built the Flutter mobile app (GetX state management, real-time voice over WebRTC, localization, auth, in-app purchases, push notifications) and the Express/TypeScript backend (REST API, ephemeral Realtime token minting, MongoDB memory system with extraction and retrieval, event-based check-in scheduling, TTS voice notes, Firebase messaging, and security with Helmet, rate limiting and JWT)."
+}
+
 ]

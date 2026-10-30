@@ -25,7 +25,7 @@
     "name": "Tailwind CSS",
     "level": "Intermediate",
     "category": "Frontend Development",
-    "icon": "<svg viewBox='0 2 32 28' xmlns='http://www.w3.org/2000/svg' fill='#000000' > <path d='M9,13.7q1.4-5.6,7-5.6c5.6,0,6.3,4.2,9.1,4.9q2.8.7,4.9-2.1-1.4,5.6-7,5.6c-5.6,0-6.3-4.2-9.1-4.9Q11.1,10.9,9,13.7ZM2,22.1q1.4-5.6,7-5.6c5.6,0,6.3,4.2,9.1,4.9q2.8.7,4.9-2.1-1.4,5.6-7,5.6c-5.6,0-6.3-4.2-9.1-4.9Q4.1,19.3,2,22.1Z' style='fill:#FDC435'></path> </svg>"
+    "icon": "<svg viewBox='0 2 32 28' xmlns='http://www.w3.org/2000/svg' fill='currentColor'> <path d='M9,13.7q1.4-5.6,7-5.6c5.6,0,6.3,4.2,9.1,4.9q2.8.7,4.9-2.1-1.4,5.6-7,5.6c-5.6,0-6.3-4.2-9.1-4.9Q11.1,10.9,9,13.7ZM2,22.1q1.4-5.6,7-5.6c5.6,0,6.3,4.2,9.1,4.9q2.8.7,4.9-2.1-1.4,5.6-7,5.6c-5.6,0-6.3-4.2-9.1-4.9Q4.1,19.3,2,22.1Z' style='fill:currentColor'></path> </svg>"
   },
   {
     "id": 5,
@@ -39,7 +39,7 @@
     "name": "MySQL",
     "level": "Advanced",
     "category": "Database Management",
-    "icon": "<img src='/icons/MySQL.svg' alt='MySQL Icon' style='width: 2.75rem; height: 2.75rem;' class='mx-auto' fill='#FDC435'/>"
+    "icon": "<img src='/icons/MySQL.svg' alt='MySQL Icon' style='width: 2.75rem; height: 2.75rem;' class='mx-auto' />"
   },
   {
     "id": 7,
@@ -123,7 +123,7 @@
     "name": "Kotlin",
     "level": "Beginner",
     "category": "Mobile Development",
-    "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256' style='width: 2.75rem; height: 2.75rem;' class='mx-auto'> <rect width='256' height='256' fill='#FDC435' /> <polygon fill='#ffffff' points='256,0 128,128 256,256' /> <polygon fill='#FDC435' points='0,0 128,128 0,256' /> </svg>"
+    "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' style='width: 2.75rem; height: 2.75rem;' class='mx-auto'><polygon points='0,0 100,0 50,50' fill='currentColor'/><polygon points='0,0 0,100 50,50' fill='currentColor' opacity='0.6'/><polygon points='0,100 100,100 50,50' fill='currentColor' opacity='0.8'/></svg>"
   },
   {
     "id": 19,
@@ -137,7 +137,7 @@
     "name": "FastAPI",
     "level": "Beginner",
     "category": "Backend Development",
-    "icon": "<img src='/icons/FastAPI.svg' alt='FastAPI Icon' style='width: 2.75rem; height: 2.75rem;' class='mx-auto' fill='#FDC435'/>"
+    "icon": "<img src='/icons/FastAPI.svg' alt='FastAPI Icon' style='width: 2.75rem; height: 2.75rem;' class='mx-auto' />"
   },
   {
     "id": 21,
